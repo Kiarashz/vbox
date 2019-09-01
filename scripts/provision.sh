@@ -8,5 +8,9 @@ install_git() {
     yum install -y git
 }
 
+install_tools() {
+    yum install tmux tree vim
+}
+
 install_git
 install_docker_ce

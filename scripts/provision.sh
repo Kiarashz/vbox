@@ -4,5 +4,9 @@ install_docker_ce() {
     yum install docker-ce docker-ce-cli containerd.io
 }
 
+install_git() {
+    yum install -y git
+}
 
+install_git
 install_docker_ce
